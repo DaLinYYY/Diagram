@@ -1,14 +1,192 @@
-<mxfile host="app.diagrams.net" modified="2021-08-19T02:16:42.215Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="-7yrxtN1HAhr0FaqpNav" version="14.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-19T05:03:01.149Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="JFT0tF_wIX9VtvtRx6iP" version="14.9.4" type="github">
   <diagram id="FkdGeQBSonSTlXjmpzyH" name="第 1 页">
-    <mxGraphModel dx="2473" dy="1308" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2873" dy="1308" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="m8ClAyKZfbKNbTJmOmOb-1" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="210" y="-60" width="100" height="60" as="geometry" />
+          <mxGeometry x="200" y="-160" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="m8ClAyKZfbKNbTJmOmOb-3" value="&lt;h1&gt;Demand&lt;/h1&gt;&lt;p&gt;&lt;b&gt;1.&amp;nbsp;起机要求：&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;1）低压：AC高于170v起机，低于160v关机&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;2）高压：AC高于280v关机，低于270v起机&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;3）起机时先开LLC，延时300ms在启动PFC&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;4)&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;b&gt;2. AC掉电要求：&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;1)  检测到AC掉电后立马出书AC Falut信号，延长45ms再关闭LLC, PFC	&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;2)&amp;nbsp; AC掉电5s后如果检查到电压正常，则正常启机&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;3）&lt;br&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-620" y="-180" width="500" height="300" as="geometry" />
+        <mxCell id="m8ClAyKZfbKNbTJmOmOb-3" value="&lt;h1&gt;Demand&lt;/h1&gt;&lt;p&gt;&lt;b&gt;1.&amp;nbsp;起机要求：&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;1）低压：AC高于170v起机，低于160v关机&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;2）高压：AC高于280v关机，低于270v起机&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;3）起机时先开LLC，延时300ms在启动PFC&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;4)&amp;nbsp; 电压过高或者过低则关机，10s后如果电压恢复正常，正常启机&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;b&gt;2. AC掉电要求：&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;1)  检测到AC掉电后立马输出AC Falut信号，延迟45ms再关闭LLC, PFC	&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;2)&amp;nbsp; AC掉电5s后如果检查到电压正常，正常启机&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;3）&lt;br&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-600" y="-200" width="500" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="m8ClAyKZfbKNbTJmOmOb-4" value="初始化硬件配置" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="200" y="-80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m8ClAyKZfbKNbTJmOmOb-5" value="初始化软件控制参数" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m8ClAyKZfbKNbTJmOmOb-6" value="任务周期运行" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="200" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m8ClAyKZfbKNbTJmOmOb-7" value="100us定时器" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="480" y="-160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m8ClAyKZfbKNbTJmOmOb-8" value="获取ADC值" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="480" y="-80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m8ClAyKZfbKNbTJmOmOb-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m8ClAyKZfbKNbTJmOmOb-10" target="m8ClAyKZfbKNbTJmOmOb-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m8ClAyKZfbKNbTJmOmOb-10" value="电压保存模式" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m8ClAyKZfbKNbTJmOmOb-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m8ClAyKZfbKNbTJmOmOb-11" target="m8ClAyKZfbKNbTJmOmOb-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m8ClAyKZfbKNbTJmOmOb-11" value="状态初始化模式" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-560" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m8ClAyKZfbKNbTJmOmOb-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m8ClAyKZfbKNbTJmOmOb-12" target="m8ClAyKZfbKNbTJmOmOb-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m8ClAyKZfbKNbTJmOmOb-12" value="初始化所有状态" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-560" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m8ClAyKZfbKNbTJmOmOb-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m8ClAyKZfbKNbTJmOmOb-13" target="m8ClAyKZfbKNbTJmOmOb-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m8ClAyKZfbKNbTJmOmOb-13" value="&lt;span&gt;AC参考电压计算和保存&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m8ClAyKZfbKNbTJmOmOb-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m8ClAyKZfbKNbTJmOmOb-14" target="m8ClAyKZfbKNbTJmOmOb-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m8ClAyKZfbKNbTJmOmOb-14" value="启机模式" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m8ClAyKZfbKNbTJmOmOb-15" value="运行模式" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="340" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m8ClAyKZfbKNbTJmOmOb-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m8ClAyKZfbKNbTJmOmOb-16" target="m8ClAyKZfbKNbTJmOmOb-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m8ClAyKZfbKNbTJmOmOb-16" value="掉电模式" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m8ClAyKZfbKNbTJmOmOb-17" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m8ClAyKZfbKNbTJmOmOb-19" value="运行模式" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m8ClAyKZfbKNbTJmOmOb-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="m8ClAyKZfbKNbTJmOmOb-20" target="m8ClAyKZfbKNbTJmOmOb-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m8ClAyKZfbKNbTJmOmOb-20" value="1.检测AC范围&lt;br&gt;&lt;div&gt;&lt;span&gt;2.是否发生了ACFault&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="280" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m8ClAyKZfbKNbTJmOmOb-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="m8ClAyKZfbKNbTJmOmOb-21" target="m8ClAyKZfbKNbTJmOmOb-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m8ClAyKZfbKNbTJmOmOb-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="m8ClAyKZfbKNbTJmOmOb-21" target="m8ClAyKZfbKNbTJmOmOb-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m8ClAyKZfbKNbTJmOmOb-21" value="发生了AC&amp;nbsp;Fault" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m8ClAyKZfbKNbTJmOmOb-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="m8ClAyKZfbKNbTJmOmOb-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m8ClAyKZfbKNbTJmOmOb-23" value="&lt;span&gt;切换成关机模式&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="540" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m8ClAyKZfbKNbTJmOmOb-24" value="关机模式" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m8ClAyKZfbKNbTJmOmOb-25" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m8ClAyKZfbKNbTJmOmOb-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m8ClAyKZfbKNbTJmOmOb-26" target="m8ClAyKZfbKNbTJmOmOb-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m8ClAyKZfbKNbTJmOmOb-26" value="电压不在范围内" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="520" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m8ClAyKZfbKNbTJmOmOb-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="m8ClAyKZfbKNbTJmOmOb-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m8ClAyKZfbKNbTJmOmOb-27" value="切换成掉电模式" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="420" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m8ClAyKZfbKNbTJmOmOb-33" value="模式判断" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m8ClAyKZfbKNbTJmOmOb-36" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m8ClAyKZfbKNbTJmOmOb-34" target="m8ClAyKZfbKNbTJmOmOb-35">
+          <mxGeometry y="-10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m8ClAyKZfbKNbTJmOmOb-37" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m8ClAyKZfbKNbTJmOmOb-34" target="m8ClAyKZfbKNbTJmOmOb-15">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m8ClAyKZfbKNbTJmOmOb-34" value="是否正常启机" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="320" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m8ClAyKZfbKNbTJmOmOb-35" value="掉电模式" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="440" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m8ClAyKZfbKNbTJmOmOb-45" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m8ClAyKZfbKNbTJmOmOb-41" target="m8ClAyKZfbKNbTJmOmOb-42">
+          <mxGeometry y="-10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m8ClAyKZfbKNbTJmOmOb-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="m8ClAyKZfbKNbTJmOmOb-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-400" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m8ClAyKZfbKNbTJmOmOb-47" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="m8ClAyKZfbKNbTJmOmOb-46">
+          <mxGeometry x="-0.7" y="-4" relative="1" as="geometry">
+            <mxPoint x="-10" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m8ClAyKZfbKNbTJmOmOb-41" value="检测电压是&lt;br&gt;否在范围内" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-560" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m8ClAyKZfbKNbTJmOmOb-42" value="切换成电压保存模式" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-560" y="520" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m8ClAyKZfbKNbTJmOmOb-48" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="420" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="m8ClAyKZfbKNbTJmOmOb-49" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="540" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="m8ClAyKZfbKNbTJmOmOb-50" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="490" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="m8ClAyKZfbKNbTJmOmOb-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m8ClAyKZfbKNbTJmOmOb-52" target="m8ClAyKZfbKNbTJmOmOb-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m8ClAyKZfbKNbTJmOmOb-52" value="等待电压稳定" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m8ClAyKZfbKNbTJmOmOb-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m8ClAyKZfbKNbTJmOmOb-53" target="m8ClAyKZfbKNbTJmOmOb-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m8ClAyKZfbKNbTJmOmOb-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m8ClAyKZfbKNbTJmOmOb-53">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-840" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m8ClAyKZfbKNbTJmOmOb-53" value="保存完毕" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="480" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m8ClAyKZfbKNbTJmOmOb-54" value="切换成初始化模式" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="600" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m8ClAyKZfbKNbTJmOmOb-60" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-770" y="570" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="m8ClAyKZfbKNbTJmOmOb-61" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-830" y="500" width="30" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
