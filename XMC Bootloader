@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-07T02:34:49.519Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="pO68fR1bKlHIWNQiZqqC" version="15.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-07T02:55:11.794Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="L_icze7DKg_yOWTUoFIu" version="15.3.7" type="github">
   <diagram id="wkHfPIou70g2gcFjBgHA" name="第 1 页">
-    <mxGraphModel dx="2844" dy="1944" grid="1" gridSize="2" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="1172" grid="1" gridSize="2" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -433,12 +433,12 @@
         <mxCell id="ZfLcSAUbUR1EJTKHZ66T-185" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="1975" y="417" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="ZfLcSAUbUR1EJTKHZ66T-186" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpSize=10;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontFamily=Times New Roman;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZfLcSAUbUR1EJTKHZ66T-188" target="ZfLcSAUbUR1EJTKHZ66T-209">
+        <mxCell id="ZfLcSAUbUR1EJTKHZ66T-186" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpSize=10;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontFamily=Times New Roman;" edge="1" parent="1" source="ZfLcSAUbUR1EJTKHZ66T-188">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1835" y="977" as="targetPoint" />
+            <mxPoint x="1940" y="1060" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1835" y="392" />
-              <mxPoint x="1835" y="982" />
+              <mxPoint x="1835" y="1060" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -513,12 +513,6 @@
         <mxCell id="ZfLcSAUbUR1EJTKHZ66T-207" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="1885" y="837" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="ZfLcSAUbUR1EJTKHZ66T-208" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZfLcSAUbUR1EJTKHZ66T-209" target="ZfLcSAUbUR1EJTKHZ66T-225">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ZfLcSAUbUR1EJTKHZ66T-209" value="Erasure Backup" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Times New Roman;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="1940.9700000000003" y="967" width="107.69" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="ZfLcSAUbUR1EJTKHZ66T-210" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpSize=10;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Times New Roman;" edge="1" parent="1" source="ZfLcSAUbUR1EJTKHZ66T-211" target="ZfLcSAUbUR1EJTKHZ66T-203">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -589,20 +583,32 @@
         <mxCell id="ZfLcSAUbUR1EJTKHZ66T-236" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.jumpInArrow;dy=7.27;dx=16.63;arrowHead=55;strokeColor=#b85450;fillColor=#f8cecc;rotation=65;" vertex="1" parent="1">
           <mxGeometry x="1254.06" y="924.37" width="82.49" height="129.63" as="geometry" />
         </mxCell>
-        <mxCell id="ZfLcSAUbUR1EJTKHZ66T-237" value="&lt;h1&gt;注意：&lt;/h1&gt;&lt;p&gt;为了安全起见。每次断电重启都需要擦除一次Flash。&lt;/p&gt;&lt;p&gt;缺点：耗时&lt;/p&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="562" y="948" width="196" height="126" as="geometry" />
-        </mxCell>
         <mxCell id="ZfLcSAUbUR1EJTKHZ66T-238" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.jumpInArrow;dy=7.27;dx=16.63;arrowHead=55;strokeColor=#b85450;fillColor=#f8cecc;rotation=65;" vertex="1" parent="1">
           <mxGeometry x="490" y="858" width="82.49" height="129.63" as="geometry" />
         </mxCell>
         <mxCell id="ZfLcSAUbUR1EJTKHZ66T-239" value="&lt;b&gt;&lt;font style=&quot;font-size: 40px&quot;&gt;Bootloader Version 1&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="154" y="-28" width="412" height="30" as="geometry" />
+          <mxGeometry x="144" y="-320" width="412" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZfLcSAUbUR1EJTKHZ66T-240" value="&lt;b&gt;&lt;font style=&quot;font-size: 40px&quot;&gt;Bootloader Version 2&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="900" y="-32" width="412" height="30" as="geometry" />
+          <mxGeometry x="910" y="-224" width="412" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZfLcSAUbUR1EJTKHZ66T-241" value="&lt;b&gt;&lt;font style=&quot;font-size: 40px&quot;&gt;Bootloader Version 3&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1748" y="-28" width="412" height="30" as="geometry" />
+          <mxGeometry x="1750" y="-182" width="412" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfLcSAUbUR1EJTKHZ66T-243" value="&lt;h1&gt;V3版本备注&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;1.&amp;nbsp;更新完Appliance后不擦除Backup，通过版本号及CRC32来确定是否需要更新Appliance&lt;/p&gt;&lt;p&gt;2. bootloader中支持FOE协议，如果检测到Backup和appliance程序异常，可以直接在Bootloader中更新appliance&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1746" y="-142" width="516" height="148" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfLcSAUbUR1EJTKHZ66T-244" value="&lt;h1&gt;注意：&lt;/h1&gt;&lt;p&gt;这里的擦除Flash的方式不是稳定的，存在在擦除过程中MCU断电，就能是的擦除不彻底，后续无法执行写操作。&lt;/p&gt;&lt;p&gt;解决方案是再：Appliance中转BOOT模式时候会再次擦除一次Backup&lt;/p&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="958" width="192" height="174" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfLcSAUbUR1EJTKHZ66T-245" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1298" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfLcSAUbUR1EJTKHZ66T-246" value="&lt;h1&gt;V1版本备注&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;1. 修改Falsh的擦除机制,将每次上电擦除改为条件擦除&lt;/p&gt;&lt;p&gt;2. 增加了Bootloader的版本号（本次正式版本为：1.0）&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;有较大的更新修改Master，修复Bug升级Branch&lt;/p&gt;&lt;p&gt;3. 增加了XMC4500和XMC4800不同芯片之间烧录错误检测机制&lt;/p&gt;&lt;p&gt;4. 将&#39;firmware_size_bytes &amp;gt; 0&#39; 改成 &#39;firmware_size_bytes &amp;gt; 0x10000&#39;&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;0x10000是Bootloader区域空间大小，可以进一步保证烧录错误的问题&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="144" y="-256" width="520" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfLcSAUbUR1EJTKHZ66T-247" value="&lt;h1&gt;V2版本备注&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;1.使用EEPROM的最后一块Page存储Bootloader的一些信息&lt;/p&gt;&lt;p&gt;&amp;nbsp;2.增加appliance完成状态，每一次结果保存在EEPROM中&lt;/p&gt;&lt;p&gt;&amp;nbsp;3.在保存数据写入EEPROM之前增加24v的掉电检测，并将结果存入EERPOM中&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="912" y="-174" width="518" height="172" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
