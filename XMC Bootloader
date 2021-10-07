@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-07T02:55:11.794Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="L_icze7DKg_yOWTUoFIu" version="15.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-07T02:59:07.009Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="f9DBup7jXMpKv16efVRc" version="15.3.7" type="github">
   <diagram id="wkHfPIou70g2gcFjBgHA" name="第 1 页">
-    <mxGraphModel dx="1422" dy="1172" grid="1" gridSize="2" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1673" dy="1308" grid="1" gridSize="2" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -609,6 +609,12 @@
         </mxCell>
         <mxCell id="ZfLcSAUbUR1EJTKHZ66T-247" value="&lt;h1&gt;V2版本备注&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;1.使用EEPROM的最后一块Page存储Bootloader的一些信息&lt;/p&gt;&lt;p&gt;&amp;nbsp;2.增加appliance完成状态，每一次结果保存在EEPROM中&lt;/p&gt;&lt;p&gt;&amp;nbsp;3.在保存数据写入EEPROM之前增加24v的掉电检测，并将结果存入EERPOM中&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="912" y="-174" width="518" height="172" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfLcSAUbUR1EJTKHZ66T-248" value="计算比较Appliance和BackupCRC32是否一致" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Times New Roman;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="2352" y="130" width="127.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfLcSAUbUR1EJTKHZ66T-249" value="检查appliance CRC32是否正确" style="rhombus;whiteSpace=wrap;html=1;strokeColor=default;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2346" y="304" width="222" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
