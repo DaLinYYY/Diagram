@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-13T08:27:40.473Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="wO4A1AC1xTqsRKT6x9zR" version="15.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-13T09:16:10.064Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="DZxawjYkbK690-7x5mk8" version="15.8.6" type="github">
   <diagram id="kPurPlpY2Ezsgcnqi7Gy" name="第 1 页">
-    <mxGraphModel dx="1673" dy="908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="643" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -241,6 +241,48 @@
         </mxCell>
         <mxCell id="1iyC5-ZJXd960pvedVtd-81" value="接收测试结果" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="920" y="920" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1iyC5-ZJXd960pvedVtd-86" value="I/O电平周期翻转" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="1040" width="80" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1iyC5-ZJXd960pvedVtd-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.031;entryY=0.164;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#B3B3B3;strokeColor=#6c8ebf;fillColor=#dae8fc;" edge="1" parent="1" source="1iyC5-ZJXd960pvedVtd-88" target="1iyC5-ZJXd960pvedVtd-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1iyC5-ZJXd960pvedVtd-88" value="上位机测试指令（开）" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1040" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1iyC5-ZJXd960pvedVtd-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#B3B3B3;strokeColor=#000000;" edge="1" parent="1" source="1iyC5-ZJXd960pvedVtd-90" target="1iyC5-ZJXd960pvedVtd-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1iyC5-ZJXd960pvedVtd-90" value="I/O测试" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="1040" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1iyC5-ZJXd960pvedVtd-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.035;entryY=0.836;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#B3B3B3;strokeColor=#000000;" edge="1" parent="1" source="1iyC5-ZJXd960pvedVtd-93" target="1iyC5-ZJXd960pvedVtd-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1iyC5-ZJXd960pvedVtd-93" value="上位机测试指令&lt;br&gt;（关）" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1iyC5-ZJXd960pvedVtd-96" value="测试对应电源输出电压" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="1240" width="80" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1iyC5-ZJXd960pvedVtd-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.031;entryY=0.164;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#B3B3B3;strokeColor=#6c8ebf;fillColor=#dae8fc;" edge="1" parent="1" source="1iyC5-ZJXd960pvedVtd-98" target="1iyC5-ZJXd960pvedVtd-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1iyC5-ZJXd960pvedVtd-98" value="上位机测试指令（开）" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1iyC5-ZJXd960pvedVtd-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#B3B3B3;strokeColor=#000000;" edge="1" parent="1" source="1iyC5-ZJXd960pvedVtd-100" target="1iyC5-ZJXd960pvedVtd-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1iyC5-ZJXd960pvedVtd-100" value="电源输出测试" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="1240" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1iyC5-ZJXd960pvedVtd-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.035;entryY=0.836;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#B3B3B3;strokeColor=#000000;" edge="1" parent="1" source="1iyC5-ZJXd960pvedVtd-102" target="1iyC5-ZJXd960pvedVtd-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1iyC5-ZJXd960pvedVtd-102" value="上位机测试指令&lt;br&gt;（关）" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1320" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
