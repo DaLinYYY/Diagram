@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-05T01:56:58.803Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="_hUbAwQ-rPfsefj5JLNq" version="16.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-06T01:03:15.836Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="pW1T3dL-MbgTFMYXGWdp" version="16.1.4" type="github">
   <diagram id="jlL1XkLfxWlBlsWCnCb2" name="第 1 页">
-    <mxGraphModel dx="1822" dy="1172" grid="0" gridSize="2" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1381" dy="932" grid="0" gridSize="2" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -278,7 +278,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="c3iXEhy7oVjQBiCNumDH-110" value="接收校验结果" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="121.5" y="1248" width="111" height="30" as="geometry" />
+          <mxGeometry x="121" y="1248" width="111" height="30" as="geometry" />
         </mxCell>
         <mxCell id="c3iXEhy7oVjQBiCNumDH-111" value="&lt;b&gt;重新开始OTA升级&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="594" y="991" width="110" height="32" as="geometry" />
@@ -306,7 +306,7 @@
           <mxGeometry x="504" y="928" width="110" height="32" as="geometry" />
         </mxCell>
         <mxCell id="c3iXEhy7oVjQBiCNumDH-127" value="传输完成" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="121.5" y="1302" width="112" height="32" as="geometry" />
+          <mxGeometry x="121" y="1304" width="112" height="32" as="geometry" />
         </mxCell>
         <mxCell id="c3iXEhy7oVjQBiCNumDH-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="c3iXEhy7oVjQBiCNumDH-142" target="c3iXEhy7oVjQBiCNumDH-145" edge="1">
           <mxGeometry relative="1" as="geometry" />
