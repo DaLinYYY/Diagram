@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-21T09:10:34.880Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="iXvUOw7rrnUfr_7k4GtT" version="16.4.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-01-21T09:18:38.287Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="3NbjafQCm8rV-VvOqyL3" version="16.4.2" type="github" pages="2">
   <diagram id="-Twu8glHmztamR4Ilo4h" name="All">
     <mxGraphModel dx="2181" dy="532" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -31,10 +31,10 @@
         <mxCell id="zJu2vAnNPxNkeJbkp7Di-118" value="&lt;b&gt;&lt;br&gt;&lt;/b&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#B8DCFE;strokeWidth=1;fillColor=none;fontColor=#004583;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;" vertex="1" parent="1">
           <mxGeometry x="-416.5" y="66" width="337" height="165" as="geometry" />
         </mxCell>
-        <mxCell id="zJu2vAnNPxNkeJbkp7Di-125" value="Hardware&lt;br&gt;Init" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#1CA5B8;fontColor=#FFFFFF;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;" vertex="1" parent="1">
+        <mxCell id="zJu2vAnNPxNkeJbkp7Di-125" value="Hardware&lt;br&gt;InitFun" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#1CA5B8;fontColor=#FFFFFF;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;" vertex="1" parent="1">
           <mxGeometry x="-298.5" y="76" width="86.5" height="44" as="geometry" />
         </mxCell>
-        <UserObject label="Middleware&lt;br&gt;Init" id="zJu2vAnNPxNkeJbkp7Di-126">
+        <UserObject label="Middleware&lt;br&gt;InitFun" id="zJu2vAnNPxNkeJbkp7Di-126">
           <mxCell style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#1CA5B8;fontColor=#FFFFFF;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;" vertex="1" parent="1">
             <mxGeometry x="-298.5" y="140" width="88.5" height="40" as="geometry" />
           </mxCell>
@@ -63,8 +63,8 @@
         <mxCell id="lM2xmtwr-_JKwsqtA49g-19" value="硬件初始化，配置" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-412" y="207" width="106" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="lM2xmtwr-_JKwsqtA49g-21" value="协议实现" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-235" y="413" width="58" height="18" as="geometry" />
+        <mxCell id="lM2xmtwr-_JKwsqtA49g-21" value="Middleware协议实现" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-240.5" y="417" width="119" height="18" as="geometry" />
         </mxCell>
         <mxCell id="lM2xmtwr-_JKwsqtA49g-22" value="&lt;b style=&quot;color: rgb(0, 69, 131); font-family: helvetica; font-size: 12px; font-style: normal; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255);&quot;&gt;Middlewares&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-240.49965517241372" y="239.00172413793103" width="92" height="28" as="geometry" />
@@ -73,13 +73,19 @@
           <mxGeometry x="-412.0041379310344" y="238.0034482758621" width="61" height="28" as="geometry" />
         </mxCell>
         <mxCell id="lM2xmtwr-_JKwsqtA49g-25" value="Cortex和STM32硬件库" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-412" y="417" width="132" height="18" as="geometry" />
+          <mxGeometry x="-416.5" y="417" width="132" height="18" as="geometry" />
         </mxCell>
         <mxCell id="lM2xmtwr-_JKwsqtA49g-26" value="&lt;b style=&quot;color: rgb(0, 69, 131); font-family: helvetica; font-size: 12px; font-style: normal; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255);&quot;&gt;Application&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-415" y="66" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lM2xmtwr-_JKwsqtA49g-27" value="USER:通用模块" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#82b366;strokeWidth=1;fillColor=#d5e8d4;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;" vertex="1" parent="1">
           <mxGeometry x="81" y="442" width="253" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="lM2xmtwr-_JKwsqtA49g-28" value="Success" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#33A64C;strokeWidth=1;fillColor=none;fontColor=#33A64C;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;" vertex="1" parent="1">
+          <mxGeometry x="-451" y="457" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lM2xmtwr-_JKwsqtA49g-29" value="通信接口抽象" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#0085FC;strokeWidth=1;fillColor=none;fontColor=#0085FC;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;" vertex="1" parent="1">
+          <mxGeometry x="-58" y="80" width="111" height="27" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
