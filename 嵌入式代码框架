@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-21T09:08:40.055Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="uB3o8sdhLOW-C2OYwx0k" version="16.4.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-01-21T09:10:34.880Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="iXvUOw7rrnUfr_7k4GtT" version="16.4.2" type="github" pages="2">
   <diagram id="-Twu8glHmztamR4Ilo4h" name="All">
     <mxGraphModel dx="2181" dy="532" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -54,7 +54,7 @@
         <mxCell id="lM2xmtwr-_JKwsqtA49g-6" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#0085FC;strokeWidth=1;fillColor=none;fontColor=#0085FC;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;" vertex="1" parent="1">
           <mxGeometry x="80" y="69" width="254" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="lM2xmtwr-_JKwsqtA49g-7" value="USER:应用层/逻辑层/对外接口" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#9673a6;strokeWidth=1;fillColor=#e1d5e7;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;" vertex="1" parent="1">
+        <mxCell id="lM2xmtwr-_JKwsqtA49g-7" value="USER:应用层/逻辑层/对外接口/应用层配置" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#9673a6;strokeWidth=1;fillColor=#e1d5e7;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;" vertex="1" parent="1">
           <mxGeometry x="80" y="28" width="253" height="34" as="geometry" />
         </mxCell>
         <mxCell id="lM2xmtwr-_JKwsqtA49g-18" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#0085FC;strokeWidth=1;fillColor=none;fontColor=#0085FC;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;" vertex="1" parent="1">
