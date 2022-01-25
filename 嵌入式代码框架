@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-25T01:33:47.892Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="4t4KV96AaulkwVnzuiVa" version="16.4.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-01-25T01:47:19.563Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="O9M8NYc96t4dkrqJV2Fk" version="16.4.5" type="github" pages="3">
   <diagram id="-Twu8glHmztamR4Ilo4h" name="All">
     <mxGraphModel dx="2222" dy="772" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -124,7 +124,7 @@
           <mxGeometry x="177" y="297" width="64" height="28" as="geometry" />
         </mxCell>
         <mxCell id="gM-SPwaLnMs7QE-axzdA-14" value="&lt;font style=&quot;font-size: 12px&quot;&gt;IMU&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#003300;strokeWidth=1;fillColor=none;fontColor=#33A64C;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;" parent="1" vertex="1">
-          <mxGeometry x="177" y="336" width="64" height="28" as="geometry" />
+          <mxGeometry x="177" y="338" width="64" height="28" as="geometry" />
         </mxCell>
         <mxCell id="gM-SPwaLnMs7QE-axzdA-15" value="&lt;span style=&quot;font-size: 12px&quot;&gt;EEPROM&lt;/span&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#003300;strokeWidth=1;fillColor=none;fontColor=#33A64C;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;" parent="1" vertex="1">
           <mxGeometry x="177" y="374" width="64" height="28" as="geometry" />
@@ -149,6 +149,9 @@
         </mxCell>
         <mxCell id="vCgClxo3-oUZ5nE9_Uxt-4" value="&lt;font style=&quot;font-size: 12px&quot; color=&quot;#4c0099&quot;&gt;控制任务&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#000000;strokeWidth=1;fillColor=none;fontColor=#33A64C;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;" vertex="1" parent="1">
           <mxGeometry x="94" y="160" width="64" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="vCgClxo3-oUZ5nE9_Uxt-5" value="&lt;span style=&quot;font-size: 12px&quot;&gt;UART&lt;/span&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#37CC73;strokeWidth=1;fillColor=none;fontColor=#33A64C;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;" vertex="1" parent="1">
+          <mxGeometry x="96" y="374" width="64" height="28" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
