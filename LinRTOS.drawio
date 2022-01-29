@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-29T05:33:08.284Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="UUiCtYDjLRKKLqBD0zOn" version="16.4.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-29T05:37:00.879Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="AYLPgzMTINXL_Jfyf34n" version="16.4.7" type="github">
   <diagram id="jBWRJJ74-NsUcopFF3-W" name="第 1 页">
-    <mxGraphModel dx="981" dy="532" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="813" dy="441" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -96,6 +96,36 @@
         </mxCell>
         <mxCell id="3vBUMYRX011UeejNerha-45" value="&lt;b&gt;&lt;font color=&quot;#001933&quot;&gt;LinRTOS Kernel&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontColor=#666666;rotation=-90;" vertex="1" parent="1">
           <mxGeometry x="695" y="218" width="125" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="3vBUMYRX011UeejNerha-47" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;strokeWidth=2;endSize=4;startSize=4;dashed=0;strokeColor=#4284F3;fontColor=#001933;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="1172" y="105" as="sourcePoint" />
+            <mxPoint x="1172" y="79" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3vBUMYRX011UeejNerha-48" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;strokeWidth=2;endSize=4;startSize=4;dashed=0;strokeColor=#4284F3;fontColor=#001933;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="824.76" y="103" as="sourcePoint" />
+            <mxPoint x="824.76" y="77" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3vBUMYRX011UeejNerha-49" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;strokeWidth=2;endSize=4;startSize=4;dashed=0;strokeColor=#4284F3;fontColor=#001933;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="977.76" y="105" as="sourcePoint" />
+            <mxPoint x="977.76" y="79" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3vBUMYRX011UeejNerha-50" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;strokeWidth=2;endSize=4;startSize=4;dashed=0;strokeColor=#4284F3;fontColor=#001933;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="1098.26" y="105" as="sourcePoint" />
+            <mxPoint x="1098.26" y="79" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3vBUMYRX011UeejNerha-51" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;strokeWidth=2;endSize=4;startSize=4;dashed=0;strokeColor=#4284F3;fontColor=#001933;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="1034.26" y="105" as="sourcePoint" />
+            <mxPoint x="1034.26" y="79" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
