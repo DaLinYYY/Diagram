@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-29T08:33:26.933Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="LJ4G5Ed75Uxz71sPr28-" version="16.4.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-29T08:40:52.255Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="eGoo43kYEgdcPHqxQqeW" version="16.4.7" type="github">
   <diagram id="jBWRJJ74-NsUcopFF3-W" name="第 1 页">
-    <mxGraphModel dx="1185" dy="1043" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="981" dy="932" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -212,7 +212,15 @@
           <mxGeometry x="243" y="-367" width="224" height="44" as="geometry" />
         </mxCell>
         <mxCell id="3vBUMYRX011UeejNerha-72" value="&lt;font style=&quot;font-size: 30px&quot; face=&quot;Helvetica&quot; color=&quot;#333333&quot;&gt;自己写一个RTOS系统&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=80;fontFamily=Times New Roman;fontColor=#3399FF;" vertex="1" parent="1">
-          <mxGeometry x="126" y="-354" width="302" height="117" as="geometry" />
+          <mxGeometry x="121" y="-358" width="302" height="117" as="geometry" />
+        </mxCell>
+        <mxCell id="3vBUMYRX011UeejNerha-86" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;html=1;whiteSpace=wrap;fillColor=#59AFFD;fontColor=#ffffff;labelBackgroundColor=#D2EDF1;fontFamily=Helvetica;fontSize=30;" vertex="1" parent="1">
+          <mxGeometry x="428" y="-298" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3vBUMYRX011UeejNerha-87" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.basic.arc;startAngle=0.25;endAngle=1;strokeWidth=4;strokeColor=#ffffff;labelBackgroundColor=#D2EDF1;fontFamily=Helvetica;fontSize=30;fontColor=#333333;fillColor=default;" vertex="1" parent="3vBUMYRX011UeejNerha-86">
+          <mxGeometry x="0.5" y="0.5" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-10" y="-10" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
