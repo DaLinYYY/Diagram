@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-29T04:02:29.692Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="MXtBoriF-jNWUkITpIf0" version="16.4.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-29T05:33:08.284Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="UUiCtYDjLRKKLqBD0zOn" version="16.4.7" type="github">
   <diagram id="jBWRJJ74-NsUcopFF3-W" name="第 1 页">
     <mxGraphModel dx="981" dy="532" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -67,7 +67,7 @@
         <mxCell id="3vBUMYRX011UeejNerha-32" value="Event" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#0085FC;strokeWidth=1;fillColor=none;fontColor=#0085FC;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;" vertex="1" parent="1">
           <mxGeometry x="955" y="172" width="271" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="3vBUMYRX011UeejNerha-33" value="ARM" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#d79b00;strokeWidth=1;fillColor=#ffe6cc;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;" vertex="1" parent="1">
+        <mxCell id="3vBUMYRX011UeejNerha-33" value="&lt;b&gt;ARM&lt;/b&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#d79b00;strokeWidth=1;fillColor=#ffe6cc;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;" vertex="1" parent="1">
           <mxGeometry x="740" y="396" width="493" height="43" as="geometry" />
         </mxCell>
         <mxCell id="3vBUMYRX011UeejNerha-34" value="Scheduler" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#0085FC;strokeWidth=1;fillColor=none;fontColor=#0085FC;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;" vertex="1" parent="1">
@@ -93,6 +93,9 @@
         </mxCell>
         <mxCell id="3vBUMYRX011UeejNerha-44" value="LinRTOS&amp;nbsp;&lt;br&gt;Config" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#0085FC;strokeWidth=1;fillColor=none;fontColor=#0085FC;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;" vertex="1" parent="1">
           <mxGeometry x="785" y="103" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3vBUMYRX011UeejNerha-45" value="&lt;b&gt;&lt;font color=&quot;#001933&quot;&gt;LinRTOS Kernel&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontColor=#666666;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="695" y="218" width="125" height="22" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
