@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-14T02:54:03.442Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="WGSVTIoCipi9VsspiezG" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-14T04:04:53.657Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="Zh6PHxrpcOBsl_zaHKAi" version="16.5.6" type="github">
   <diagram id="iBR2g7ag58kDMcI7aYGA" name="第 1 页">
     <mxGraphModel dx="2785" dy="1043" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -245,24 +245,6 @@
         </mxCell>
         <mxCell id="M7h5qDg69ejYSaPNpIXj-18" value="模块初始化" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="324.87" y="113" width="98.25" height="35" as="geometry" />
-        </mxCell>
-        <mxCell id="M7h5qDg69ejYSaPNpIXj-19" value="&lt;font color=&quot;#999999&quot;&gt;IMU&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#999999;" vertex="1" parent="1">
-          <mxGeometry x="940" y="111" width="75" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="M7h5qDg69ejYSaPNpIXj-21" value="&lt;font color=&quot;#999999&quot;&gt;电机驱动器&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#999999;" vertex="1" parent="1">
-          <mxGeometry x="940" y="147" width="75" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="M7h5qDg69ejYSaPNpIXj-22" value="&lt;font color=&quot;#999999&quot;&gt;编码器&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#999999;" vertex="1" parent="1">
-          <mxGeometry x="940" y="218" width="75" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="M7h5qDg69ejYSaPNpIXj-23" value="&lt;font color=&quot;#999999&quot;&gt;电压检测&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#999999;" vertex="1" parent="1">
-          <mxGeometry x="940" y="76" width="75" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="M7h5qDg69ejYSaPNpIXj-24" value="&lt;font color=&quot;#999999&quot;&gt;刹车&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#999999;" vertex="1" parent="1">
-          <mxGeometry x="940" y="182" width="75" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="M7h5qDg69ejYSaPNpIXj-26" value="&lt;font color=&quot;#999999&quot;&gt;······&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#999999;" vertex="1" parent="1">
-          <mxGeometry x="940" y="252" width="75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="M7h5qDg69ejYSaPNpIXj-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=22;fontColor=#999999;strokeColor=#000000;" edge="1" parent="1" source="M7h5qDg69ejYSaPNpIXj-28" target="M7h5qDg69ejYSaPNpIXj-44">
           <mxGeometry relative="1" as="geometry" />
